@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mainBodyFlash
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	background: #FFF url(../gfx/main-bg-1.jpg);
+}
+
+#mainDivFlash
+{
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	
+	background: #9CF url(../gfx/page-bg2b.jpg);
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+}
+
+#upperPageDivFlash
+{
+	position:relative;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1000px;
+	height: 1200px;
+	color: #000;
+}
+
+.bannerDivFlash
+{
+	position: absolute;
+	top: 600px;
+	left: 0px;
+	text-align: left;
+	width: 1000px;
+	height: 68px;
+	//background: #ccF;
+}
+
+#upperPageInsideDivMonivalinta
+{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 560px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivKuvasanakirja
+{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 660px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivMonivalintaFlash
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 600px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivKuvasanakirjaFlash
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 600px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivLuokittelu
+{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 560px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivLuokitteluFlash
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 600px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivPalapeli
+{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 560px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivPalapeliFlash
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 600px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivValaisu
+{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 540px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivValaisuFlash
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 530px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivMuistipeli
+{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 540px; 
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivMuistipeliFlash
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 530px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivYhdistely
+{
+	position:absolute;
+	top: 645px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 400px;
+	color: #000;
+}
+
+#upperPageInsideDivKuvaselain
+{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 560px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+#upperPageInsideDivKuvaselainFlash
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 600px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+.upperPageInsideDiv
+{
+	position:absolute;
+	top: 600px;
+	left: 0px;
+	
+	text-align: left;
+	width: 1000px;
+	height: 400px;
+	color: #000;
+}
+
+
+#flashContentOuter
+{
+	position:absolute;
+	top: 00px;
+	left: 0px;
+	
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+
+	text-align: left;
+	width: 1000px;
+	color: #000;
+}
+
+.esiteTable
+{
+	position:absolute;
+	top: 225px;
+	left: 0px;
+	margin: 0px 0px 0px 45px;
+	padding: 0px 0px 0px 0px;
+	
+	width: 900px;
+	text-align:center;
+	
+	font: normal normal bold 14px verdana;
+}
+
+.flash_intro_column1
+{
+	position: absolute;
+	top: 20px;
+	left: 35px;
+	
+	width: 425px;
+}
+
+.flash_intro_column2
+{
+	position: absolute;
+	top: 20px;
+	left: 535px;
+	
+	width: 425px;
+}
+

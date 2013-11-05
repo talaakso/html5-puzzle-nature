@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainBody
+{
+	width: 100%;
+	height: 100%;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+	text-align: center;
+	background: #FFF url(../gfx/main-bg-1.jpg);
+}
+
+.mainDiv
+{
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	
+	margin: 0px auto;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	behavior: url('./htc/PIE.htc');
+	
+}
+
+.bannerUpperDiv
+{
+	position: relative;
+	text-align: left;
+	width: 1000px;
+	height: 120px;
+}
+
+.bannerDiv
+{
+	position: relative;
+	text-align: left;
+	width: 1000px;
+	height: 68px;
+}
+
+.bannerImg
+{
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+dl, dt, dd, ul, li {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+
+#header {
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	height: 35px;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font: normal normal bold 14px tahoma;
+	color: #0000FF;
+
+	background: #fef6ae;
+	z-index: 2;
+	text-align: center;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	behavior: url('./htc/PIE.htc');
+}
+
+//#header dl{
+//	float: left;
+//	margin: 7px 0px 0px 0px;
+//	padding: 0px 20px 0px 20px;
+//}
+
+#etusivu_a
+{
+	color: #000000;
+	font: normal normal bold 14px tahoma;
+}
+
+.smallLink
+{
+	color: #0000FF;
+	text-decoration:none;
+	
+	font: normal normal bold 12px arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.smallLinkNormal
+{
+	color: #0000FF;
+	text-decoration:none;
+	
+	font: normal normal normal 12px arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.smallLinkNormal:hover
+{
+	color: #FF0000;
+}
+
+.mediumLink
+{
+	color: #0000FF;
+	text-decoration:none;
+	
+	font: normal normal bold 14px verdana;
+}
+
+.largeLink
+{
+	color: #0000FF;
+	text-decoration:none;
+	
+	font: normal normal bold 20px verdana;
+}
+
+#upperPageDiv
+{
+	position:relative;
+	text-align: left;
+	width: 1000px;
+	height: 1200px;
+	color: #000;
+	
+	background: #3C6 url('../gfx/page-bg2b.jpg');
+	
+}
+
+#upperPageDivLeft
+{
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	
+	text-align: left;
+	width: 300px;
+	color: #000;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	z-index: 1;
+	
+	behavior: url('./htc/PIE.htc');
+}
+
+.upperPageDivLeftText
+{
+	
+	text-align: left;
+	margin: 10px 10px 10px 10px;
+	padding: 0px 0px 0px 0px;
+	font: normal normal normal 12px Verdana;
+	
+	z-index: 1;
+}
+
+.upperPageDivLeftMap
+{
+	
+	text-align: left;
+	margin: 20px 20px 20px 20px;
+	padding: 0px 0px 0px 0px;
+	font: normal normal normal 12px Verdana;
+}
+
+#upperPageDivRight
+{
+	position:absolute;
+	top: 20px;
+	left: 350px;
+	
+	text-align: left;
+	width: 630px;
+	color: #000;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	-moz-box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 24px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+.upperPageDivRightText
+{
+	width: 590px;
+	//height: 50px;
+	
+	text-align: left;
+	margin: 20px 20px 20px 20px;
+	padding: 0px 0px 0px 0px;
+	
+	font: normal normal normal 12px Verdana;
+}
+
+#mainHeader
+{
+	position: relative;
+	top:0px;
+	left:0px;
+	width: 1000px;
+	text-align:center;
+	margin: 0px 0px 0px 0px;
+	padding: 7px 0px 0px 0px;
+	color: #000;
+	font: normal normal normal 18px Verdana;
+	background: #FF9;
+}
+
+.headerText
+{
+	color: #000;
+	font: bold normal normal 16px Arial, Helvetica, sans-serif;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+	text-shadow: 2px 2px 2px #999;
+	text-align:center;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.4) 0px 0px 12px;
+	-moz-box-shadow:rgba(0,0,0,0.4) 0px 0px 12px;
+	box-shadow:rgba(0,0,0,0.4) 0px 0px 12px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	//background: #fef6ae;
+	background: #ffffff;
+	background: rgba(255,255,255,0.2);
+	
+	
+	behavior: url('./htc/PIE.htc');	
+}
+
+.greenText
+{
+	color: #060;
+	font: normal normal bold 14px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.greenTextBold12
+{
+	color: #060;
+	font: normal normal bold 12px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.greenTextBold14
+{
+	color: #060;
+	font: normal normal bold 14px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.greenTextBold16
+{
+	color: #060;
+	font: normal normal bold 16px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.blackTextBold12
+{
+	color: #000;
+	font: normal normal bold 12px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.blackTextBold14
+{
+	color: #000;
+	font: normal normal bold 14px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.redText
+{
+	color: #F00;
+	font: normal normal bold 14px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.boldText
+{
+	font: normal normal bold 12px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkDiv
+{
+	margin: 5px 0px 5px 0px;
+	padding: 5px 5px 5px 10px;
+	
+	text-align:center;
+	
+	-khtml-box-shadow:rgba(0,0,0,0.4) 0px 0px 12px;
+	-moz-box-shadow:rgba(0,0,0,0.4) 0px 0px 12px;
+	box-shadow:rgba(0,0,0,0.4) 0px 0px 12px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	background: #fef6ae;
+	background: rgba(254,246,174,0.8);
+	behavior: url('./htc/PIE.htc');	
+	
+	z-index: 100;
+}
+
+.headerLinkDisabled
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-decoration:none;
+	color: #000000;
+	font: normal normal bold 14px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+a.headerLink
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-decoration:none;
+	color: #0000FF;
+	font: normal normal bold 14px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+a.headerLink:hover
+{
+	color: #FF0000;
+	text-decoration:none;
+	font: normal normal bold 14px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyDiv
+{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	font: normal normal normal 12px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.addressDiv
+{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	font: normal normal normal 12px Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
